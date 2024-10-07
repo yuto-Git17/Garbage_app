@@ -22,7 +22,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 comm==0.2.1
-conda==24.9.1
+conda==4.3.16
 conda-libmamba-solver==24.7.0
 conda-package-handling==2.3.0
 conda_package_streaming==0.10.0
