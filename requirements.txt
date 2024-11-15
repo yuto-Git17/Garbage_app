@@ -32,3 +32,4 @@ tensorflow-cpu
 termcolor
 urllib3
 Werkzeug
+cv2
