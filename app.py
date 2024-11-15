@@ -58,7 +58,7 @@ def upload_file():
             pred_answer=pred
             for category, items in categories.items():
                 if pred_answer in items:
-                    answer =("おそらく{}なので、分類は「{}」です。".format(classes[predicted],category))
+                    answer =("おそらく{}なので、「{}」です。".format(classes[predicted],category))
 
                     return render_template("index.html", answer=answer)
         else:
