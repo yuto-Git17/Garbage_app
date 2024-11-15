@@ -1,15 +1,1 @@
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# mnist_app
-# Garbage-separation
-# Garbage-separation
-# Garbage-separation
+# Garbage_app
