@@ -4,6 +4,7 @@ from werkzeug.utils import secure_filename
 from tensorflow.keras.models import load_model # type: ignore
 from tensorflow.keras.preprocessing import image # type: ignore
 import numpy as np
+import cv2
 
 classes = ["ダンボール","古紙","古着","包装プラスチック類","ペットボトル類","ライター","ビン類","生ゴミ","空き缶","紙オムツ","蛍光灯","電池・バッテリー","靴","衛生用品","汚れた紙類"]
 image_size = 64
