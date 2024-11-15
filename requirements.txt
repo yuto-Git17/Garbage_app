@@ -31,3 +31,4 @@ tensorflow-cpu
 termcolor
 urllib3
 Werkzeug
+opencv-python  
