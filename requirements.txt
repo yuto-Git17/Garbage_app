@@ -24,8 +24,7 @@ pillow
 protobuf
 PyYAML
 python-dotenv
-python3
-requests
+python
 scipy
 six
 tensorboard
