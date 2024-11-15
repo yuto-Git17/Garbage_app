@@ -24,6 +24,7 @@ pillow
 protobuf
 PyYAML
 python-dotenv
+python3
 requests
 scipy
 six
@@ -32,4 +33,3 @@ tensorflow-cpu
 termcolor
 urllib3
 Werkzeug
-cv2
