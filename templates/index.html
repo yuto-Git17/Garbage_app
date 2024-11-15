@@ -4,38 +4,35 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content="device-width, initial-scale=1.0">
     <meta http-equiv='X-UA-Compatible' content="ie=edge">
-    <title>Number Classifier</title>
+    <title>Gomi no bunbetu</title>
     <link rel='stylesheet' href="./static/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>   
-        <img class='header_img' src="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1621500180546399.png" alt="Aidemy">
-        <a class='header-logo' href="#">Number Classifier</a>
+    <header>
+      <h1>Gomi no bunbetu
+      <img class="header_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORqQaFxVgvBgGMc0JsDmJd-f5toB0Xv47uw&s" alt="img">
+      </h1>
     </header>
-
-    <div class='main'>    
-        <h2>AIが送信された画像の数字を識別します</h2>
-        <p>画像を送信してください</p>
-
+      <h2> ゴミの分別をお手伝いします。</h2>
+      <p> 画像を送信してください。
         <!-- フラッシュメッセージの表示 -->
         {% with messages = get_flashed_messages() %}
           {% if messages %}
             {% for message in messages %}
-              <div class="flash">{{ message }}</div>
+        <div class="flash">{{ message }}</div>
             {% endfor %}
           {% endif %}
         {% endwith %}
-
         <form method='POST' enctype="multipart/form-data">
             <input class='file_choose' type="file" name="file">
-            <input class='btn' value="submit!" type="submit">
+            <input class='btn' value="click!"   type="submit">
+          <div class="answer">{{answer}}</div>
         </form>
-        <div class='answer'>{{ answer }}</div>
-    </div>
-
-    <footer>
-        <img class='footer_img' src="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1621500180546399.png" alt="Aidemy">
-        <small>&copy; 2019 Aidemy, inc.</small>   
+      <footer>
+        <small>&copy; 2024 地球のためにできること, inc.</small>
     </footer>
 </body>
 </html>
